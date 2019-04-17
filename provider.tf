@@ -66,7 +66,7 @@ resource "aws_autoscaling_group" "bar" {
   }
 }
 
-## Security Group for ELB
+#################### Security Group for ELB [elastic load balancer]
 
 ### Creating ELB
 resource "aws_elb" "example" {
