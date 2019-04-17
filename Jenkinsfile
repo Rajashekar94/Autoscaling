@@ -17,5 +17,4 @@ stage('Terraform apply'){
     sh "terraform apply -input=false -auto-approve"
 
     }
-
-    }
+   }
