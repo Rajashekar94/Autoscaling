@@ -28,11 +28,11 @@ variable "image_id" {
 
 variable "max_size" {
 
-  default = "6"
+  default = "3"
 }
 
 variable "min_size" {
-  default = "3"
+  default = "2"
 }
 variable "desired_size" {
   default = "1"
