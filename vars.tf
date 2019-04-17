@@ -19,7 +19,7 @@ variable "aws_region" {
 }
 
 variable "source_instance_id" {
-  default = "i-0cc044d7be32a30fd"
+  default = "i-02c0a3c65d61f894d"
 }
 
 variable "image_id" {
