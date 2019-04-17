@@ -27,14 +27,13 @@ variable "image_id" {
 }
 
 variable "max_size" {
-
-  default = "3"
-}
-
-variable "min_size" {
-  default = "2"
-}
-variable "desired_size" {
   default = "1"
 }
 
+variable "min_size" {
+  default = "1"
+}
+
+variable "desired_size" {
+  default = "1"
+}

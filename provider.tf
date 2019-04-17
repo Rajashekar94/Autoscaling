@@ -55,9 +55,9 @@ resource "aws_autoscaling_group" "bar" {
   availability_zones   = ["ap-south-1a"]
   max_size             = "${var.max_size}"
   min_size             = "${var.min_size}"
-  
-  load_balancers       = ["${aws_elb.example.name}"]
-  health_check_type    = "ELB"
+
+  load_balancers    = ["${aws_elb.example.name}"]
+  health_check_type = "ELB"
 
   tag {
     key                 = "Name"
