@@ -1,8 +1,7 @@
 node {
    stage 'checkout'
    
-      checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false,
-                extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Rajashekar94/Autoscaling.git']]])
+   git 'https://github.com/Rajashekar94/Autoscaling.git'
 
   stage('Terraform init'){
 
