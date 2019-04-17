@@ -23,7 +23,7 @@ variable "source_instance_id" {
 }
 
 variable "image_id" {
-  default = "ami-04c9d2d68605c3ad5"
+  default = "ami-00a32515f91feff9d"
 }
 
 variable "max_size" {
