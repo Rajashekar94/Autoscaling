@@ -55,7 +55,7 @@ resource "aws_autoscaling_group" "bar" {
   availability_zones   = ["ap-south-1a"]
   max_size             = "${var.max_size}"
   min_size             = "${var.min_size}"
-  desired_capacity     = "${var.desired_capacity}"
+  
   load_balancers       = ["${aws_elb.example.name}"]
   health_check_type    = "ELB"
 
