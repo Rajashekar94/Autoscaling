@@ -1,8 +1,8 @@
 node {
    stage 'checkout'
-       git 'https://github.com/Rajashekar94/terra123.git'checkout([$class: 'GitSCM', branches: [[name: '*/master']],
-       doGenerateSubmoduleConfigurations: false, extensions: [],
-       submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Rajashekar94/terra123.git']]])
+   
+      checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false,
+                extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Rajashekar94/Autoscaling.git']]])
 
   stage('Terraform init'){
 
