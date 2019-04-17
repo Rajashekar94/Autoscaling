@@ -61,7 +61,7 @@ resource "aws_autoscaling_group" "bar" {
 
   tag {
     key                 = "Name"
-    value               = "terraform-asg-example"
+    value               = "terra-asg-123"
     propagate_at_launch = true
   }
 }
