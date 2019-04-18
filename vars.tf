@@ -19,11 +19,11 @@ variable "aws_region" {
 }
 
 variable "source_instance_id" {
-  default = "i-02c0a3c65d61f894d"
+  default = "i-0015834d2d7ef29f2"
 }
 
 variable "image_id" {
-  default = "ami-00a32515f91feff9d"
+  default = "ami-074f1e27b38df20b0"
 }
 
 variable "max_size" {
