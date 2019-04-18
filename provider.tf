@@ -56,6 +56,10 @@ resource "aws_autoscaling_group" "bar" {
   max_size             = "${var.max_size}"
   min_size             = "${var.min_size}"
 
+  lifecycle {
+    create_before_destroy = true
+  }
+  
   load_balancers    = ["${aws_elb.example.name}"]
   health_check_type = "ELB"
 
