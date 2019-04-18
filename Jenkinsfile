@@ -17,4 +17,9 @@ stage('Terraform apply'){
     sh "terraform apply -input=false -auto-approve"
 
     }
+   stage('Terraform destroy'){
+
+    sh "terraform destroy -input=false -auto-approve"
+
+    }
    }
