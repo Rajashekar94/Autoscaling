@@ -22,9 +22,9 @@ variable "source_instance_id" {
   default = "i-0e659102cbc82acfe"
 }
 
-#variable "image_id" {
-#  default = "ami-0f495635f99dd20e2"
-#}
+variable "image_id" {
+  default = "ami-08ed39e36833f4bc4"
+}
 
 variable "max_size" {
   default = "1"
